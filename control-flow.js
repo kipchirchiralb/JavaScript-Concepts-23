@@ -27,8 +27,10 @@ let users = {
     position: "Patient", // "Doctor", "Nurse", "Patient"
   },
 };
+
 function joinClub(userAge) {
   if (userAge < 18) {
+    console.log("snother");
     console.log("Sorry, you're too young for this");
   } else if (userAge > 35) {
     console.log("Sorry, you're too old for this");
@@ -53,8 +55,9 @@ switch (users.user3.position) {
     console.log("Role: Unknown - Not allowed to use");
 }
 
-// for loop
-// let i = 0;
-// for (i; i <= 10; i = i + 1) {
-//   console.log(i);
-// }
+for (let i = 0; i <= 20; i = i + 1) {
+  // i = 0 // 1 // 2
+  //true // true // true //false - loop ends
+  console.log(i);
+  //i = 1 // i = 2 // i= 3
+}
