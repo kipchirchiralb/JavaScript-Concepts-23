@@ -20,7 +20,9 @@ Longest word in a string: Write a function that takes a string as an argument an
 
 Array flattening: Write a function that takes a nested array as an argument and returns a flattened array. You can use array methods such as concat(), reduce(), and flat() to accomplish this task.
 
-// example interview question
+Count the number of unique items in an array, e.g. ['1', '2','b','b','c','2','d','d','d','1','b'] . hint: Use Set.size
+
+// example interview question, Give the array below
 const ARTICLES = [
 {
 title: 'A message to our customers',
