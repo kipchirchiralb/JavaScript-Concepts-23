@@ -2,7 +2,7 @@
 
 • Write a function to print all even numbers greater than 30 and below 50
 
-• Write a program that uses prompt() to ask the user for their name and age, and then uses alert() to display a message to the user.(BROWSER)
+• Write a program that uses prompt() to ask the user for their name and age, and then uses alert() to display a message to the user.(BROWSER) - - confrim()
 
 • Write a function that takes two numbers as arguments and returns the sum of the numbers. Then, call the function and RETURN the result.
 
