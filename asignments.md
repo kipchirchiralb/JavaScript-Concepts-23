@@ -6,11 +6,33 @@
 
 • Write a function that takes two numbers as arguments and returns the sum of the numbers. Then, call the function and RETURN the result.
 
+
 • Write a program that defines an object that represents a person, with properties for name, age, and city. Then, use dot notation to access and print the values of the object's properties.
 
 • Write a function that takes an array of numbers as an argument and returns the sum of the numbers in the array. Then, call the function and print the result to the console.
 
 //read on prototypes
+Write a function that takes a string as an argument and returns the string with all vowels removed.
+
+Write a function that takes a string as an argument and returns an object with the count of each letter in the string.
+
+Write a function that takes a string as an argument and returns the string with all words in reverse order.
+
+Write a function that takes an array of numbers as an argument and returns the average of those numbers.
+
+### RECURSION
+Write a function that takes a number as an argument and returns the factorial of that number.
+
+function factorial(num) {
+  if (num === 0 || num === 1) {
+    return 1;
+  } else {
+    return num * factorial(num - 1);
+  }
+}
+console.log(factorial(5)); // Output: 120
+console.log(factorial(7)); // Output: 5040
+
 
 Palindrome checker: Write a function that takes a string as an argument and returns a boolean indicating whether the string is a palindrome (a word or phrase that reads the same forwards and backwards). You can use string methods such as split(), reverse(), and join() to accomplish this task.
 

@@ -82,3 +82,27 @@ function isStringPalindrome(string) {
 // console.log("car" === "rac");
 
 // Longest word in a string: Write a function that takes a string as an argument and returns the longest word in the string. You can use string methods such as split(), sort(), and length to accomplish this task.
+
+// Array flattening: Write a function that takes a nested array as an argument and returns a flattened array. You can use array methods such as concat(), reduce(), and flat() to accomplish this task.
+
+let nestedArray = [
+  ["hello", "world"],
+  ["html", "css", "js"],
+  ["node"],
+  [
+    ["git", "cmd", "sql"],
+    [1, 2, 3, 4],
+  ],
+];
+
+function flattenArray(arr) {
+  return arr.flat(2);
+}
+console.log(flattenArray(nestedArray));
+
+let resultArray = nestedArray.reduce((acummulator, next) => {
+  return acummulator.concat(next);
+});
+// recursion
+// if
+// console.log(resultArray);
